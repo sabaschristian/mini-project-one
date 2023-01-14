@@ -1,0 +1,128 @@
+/* NAVBAR */
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-body);
+    margin: 0 16px 0 16px;
+}
+
+.nav-link:hover{
+    color: var(--color-brand);
+}
+
+.lead {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* HOME SECTION */
+#home {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* BTN */
+.btn {
+    padding: 12px 28px;
+    font-weight: bold;
+}
+
+.btn-brand {
+    background-color: var(--color-brand2);
+    border-color: var(--color-brand2);
+    transition: 0.5s ease;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: transparent;
+    border-color: var(--color-brand);
+    color: var(--color-brand);
+    transition: all 0.3s ease;
+}
+
+/* LINK-CUSTOM */
+
+.link-custom {
+    color: var(--color-body);
+    margin-left: 10px;
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom:hover {
+    color: var(--color-brand);
+}
+
+.link-custom::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after{
+    width: 100%;
+}
+
+/* BOX ICONS*/
+
+.bx {
+    color: var(--color-heading);
+}
+
+.bx:hover {
+    color: var(--color-brand);
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 3rem;
+    margin-top: auto;
+}
+
+.footer-item {
+    float: left;
+    margin-right: 10px;
+    font-size: 25px;
+    letter-spacing: 0.5rem;
+}
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+    img {
+        display: none;
+    }
+
+    #home {
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    h1, .lead {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .link-custom{
+        display: block;
+        margin: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,45 @@
+.form-submit {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+
+.form-submit form {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-submit input {
+    width: 49%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-submit button {
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .form-submit {
+        width: 300px;
+    }
+
+    .form-submit .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row .form-control {
+        width: 100%;
+        margin-top: 5px;
+    }
+}

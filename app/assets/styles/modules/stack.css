@@ -1,0 +1,25 @@
+.stack-column {
+    width: 50%;
+    margin: auto;
+}
+
+.stack-items {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.stack-items li {
+    margin-bottom: 1rem;
+}
+
+.stack-content {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 425px) {
+    .stack-header {
+        font-size: 2rem;
+    }
+}

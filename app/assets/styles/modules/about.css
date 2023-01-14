@@ -1,0 +1,18 @@
+@media (max-width: 425px) {
+    .about-desc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-desc {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .about-desc {
+        font-size: 23px;
+    }
+}
+

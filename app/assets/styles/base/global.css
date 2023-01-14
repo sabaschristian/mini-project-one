@@ -1,0 +1,48 @@
+:root {
+    --color-body: #FFFFFF;
+    --color-heading: #EEF3DB;
+    --color-base: #DA8686;
+    --color-base2: #000000;
+    --color-brand: #0dcaf0;
+    --color-brand2: #FFFFFF;
+    --sidebar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base);
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+img .rounded-circle {
+    width: 50%;
+}
